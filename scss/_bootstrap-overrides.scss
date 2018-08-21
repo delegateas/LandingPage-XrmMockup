@@ -1,0 +1,117 @@
+// Bootstrap overrides for this template
+a {
+  color: $primary;
+  &:focus,
+  &:hover,
+  &:active {
+    color: darken($primary, 10%);
+  }
+}
+
+.btn {
+  border-width: 2px;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.bg-tertiary {
+  background-color: $tertiary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.text-tertiary {
+  color: $tertiary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary, 10%);
+    border-color: darken($primary, 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($secondary, 10%);
+    border-color: darken($secondary, 10%);
+  }
+}
+
+.btn-tertiary {
+  background-color: $tertiary;
+  border-color: $tertiary;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($tertiary, 10%);
+    border-color: darken($tertiary, 10%);
+  }
+}
+
+.container-fluid, .row {
+  width: 100%;
+}
+
+span.span-primary {
+  color: $primary;
+}
+
+img.mit-license {
+  margin-left: auto;
+  margin-right: 0;
+  width: 6rem;
+  height: 6rem;
+}
+
+#intro-text {
+  margin-top: 4rem;
+}
+
+#logo {
+  display: block;
+  z-index: 1031;
+  text-align: center;
+}
+#logo img {
+  height: 120px;
+}
+
+.flex-full {
+  flex: 1;
+}
+
+footer.footer {
+  border-top: 3px solid $tertiary;
+}
+
+img#testing {
+  max-width: 100%;
+}
+
+img#fork-on-github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3000;
+}
