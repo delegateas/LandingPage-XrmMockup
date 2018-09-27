@@ -33,16 +33,16 @@
         "magnific-popup": "^1.1.0"
     },
     "devDependencies": {
-        "browser-sync": "2.24.6",
-        "gulp": "^3.9.1",
+        "browser-sync": "^2.24.7",
+        "gulp": "^4.0.0",
         "gulp-clean-css": "3.10.0",
         "gulp-filter": "5.1.0",
         "gulp-header": "2.0.5",
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.1",
         "gulp-uglify": "3.0.1",
-        "lodash": "^4.17.10",
-        "sshpk": "^1.14.2",
-        "prismjs": "1.15.0"
+        "lodash": "^4.17.11",
+        "prismjs": "^1.15.0",
+        "sshpk": "^1.14.2"
     }
 }
